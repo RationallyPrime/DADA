@@ -3,7 +3,7 @@ import numpy as np
 from scipy import stats
 import matplotlib.pyplot as plt
 from scipy import stats
-con = sqlite3.connect("/Users/RationallyPrime/Downloads/2012_10.db")
+con = sqlite3.connect("Enter database here")
 
 mycursor = con.cursor()
 
